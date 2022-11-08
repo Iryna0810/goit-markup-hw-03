@@ -10,31 +10,37 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/style.css" />
     <title>portfolio</title>
   </head>
   <body>
     <header class="header">
-      <div class="container">
-      <nav>
-        <a class="nav-logo" href="./index.html">Web<span class="studio">Studio</span></a>
-        <ul class="nav-list list">
-          <li><a class="nav-list-item" href="./index.html">Студія</a></li>
-          <li><a class="nav-list-item" href="./portfolio.html" target="_blank">Портфоліо</a></li>
-          <li><a class="nav-list-item" href="#">Контакти</a></li>
+      <div class="container header-container">
+        <nav class="nav-container">
+          <div class="logo">
+            <a class="nav-logo" href="./index.html">Web<span class="studio">Studio</span></a>
+          </div>
+          <ul class="nav-list list">
+            <li><a class="nav-list-item" href="./index.html">Студія</a></li>
+            <li><a class="nav-list-item" href="./portfolio.html" target="_blank">Портфоліо</a></li>
+            <li><a class="nav-list-item" href="#">Контакти</a></li>
+          </ul>
+        </nav>
+
+        <ul class="adress list">
+          <li>
+            <a class="adress-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li><a class="adress-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
-      </nav>
-      <ul class="adress list">
-        <li>
-          <a class="adress-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li><a class="adress-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-      </ul>
       </div>
     </header>
     <main>
-      <section class="main-portfolio section">
+      <section class="section">
         <div class="container">
           <h1 class="hide">Приклади робіт</h1>
           <!--filter-->
@@ -50,84 +56,106 @@
             <li class="item">
               <a>
                 <img src="./images/technokryak.jpg" alt="Технокряк" width="370" />
-                <h2 class="work-title">Технокряк</h2>
-                <p class="work-text">Веб-сайт</p>
+                <div class="work">
+                  <h2 class="work-title">Технокряк</h2>
+                  <p class="work-text">Веб-сайт</p>
+                </div>
               </a>
             </li>
             <li class="item">
               <a>
                 <img src="./images/poster.jpg" alt="Постер" width="370" />
-                <h2 class="work-title">Постер New Orlean vs Golden Star</h2>
-                <p class="work-text">Дизайн</p>
+                <div class="work">
+                  <h2 class="work-title">Постер New Orlean vs Golden Star</h2>
+                  <p class="work-text">Дизайн</p>
+                </div>
               </a>
             </li>
             <li class="item">
               <a>
                 <img src="./images/seafood.jpg" alt="Ресторан" width="370" />
-                <h2 class="work-title">Ресторан Seafood</h2>
-                <p class="work-text">Додаток</p>
+                <div class="work">
+                  <h2 class="work-title">Ресторан Seafood</h2>
+                  <p class="work-text">Додаток</p>
+                </div>
               </a>
             </li>
             <li class="item">
               <a>
                 <img src="./images/prime.jpg" alt="Проєкт Prime" width="370" />
-                <h2 class="work-title">Проєкт Prime</h2>
-                <p class="work-text">Маркетинг</p>
+                <div class="work">
+                  <h2 class="work-title">Проєкт Prime</h2>
+                  <p class="work-text">Маркетинг</p>
+                </div>
               </a>
             </li>
             <li class="item">
               <a>
                 <img src="./images/boxes.jpg" alt="Проєкт Boxes" width="370" />
-                <h2 class="work-title">Проєкт Boxes</h2>
-                <p class="work-text">Додаток</p>
+                <div class="work">
+                  <h2 class="work-title">Проєкт Boxes</h2>
+                  <p class="work-text">Додаток</p>
+                </div>
               </a>
             </li>
             <li class="item">
               <a>
                 <img src="./images/inspiration.jpg" alt="Inspiration has no Borders" width="370" />
-                <h2 class="work-title">Inspiration has no Borders</h2>
-                <p class="work-text">Веб-сайт</p>
+                <div class="work">
+                  <h2 class="work-title">Inspiration has no Borders</h2>
+                  <p class="work-text">Веб-сайт</p>
+                </div>
               </a>
             </li>
             <li class="item">
               <a>
                 <img src="./images/limited-edition.jpg" alt="Видання Limited Edition" width="370" />
-                <h2 class="work-title">Видання Limited Edition</h2>
-                <p class="work-text">Дизайн</p>
+                <div class="work">
+                  <h2 class="work-title">Видання Limited Edition</h2>
+                  <p class="work-text">Дизайн</p>
+                </div>
               </a>
             </li>
             <li class="item">
               <a>
                 <img src="./images/lab.jpg" alt="Проєкт LAB" width="370" />
-                <h2 class="work-title">Проєкт LAB</h2>
-                <p class="work-text">Маркетинг</p>
+                <div class="work">
+                  <h2 class="work-title">Проєкт LAB</h2>
+                  <p class="work-text">Маркетинг</p>
+                </div>
               </a>
             </li>
             <li class="item">
               <a>
                 <img src="./images/business.jpg" alt="Growing Business" width="370" />
-                <h2 class="work-title">Growing Business</h2>
-                <p class="work-text">Додаток</p>
+                <div class="work">
+                  <h2 class="work-title">Growing Business</h2>
+                  <p class="work-text">Додаток</p>
+                </div>
               </a>
             </li>
           </ul>
-        </div >
+        </div>
       </section>
     </main>
     <footer class="footer">
       <div class="container">
-      <a class="footer-logo" href="./index.html">Web<span class="studio">Studio</span></a>
-      <address class="footer-adress">
-        <ul class="list">
-          <li>
-            <a class="contacts-link" href="https://goo.gl/maps/R587G1dcSDkKb4t88" target="_blank"
-              >м. Київ, пр-т Лесі Українки, 26</a
-            >
-          </li>
-          <li><a class="contacts-item" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a class="contacts-item" href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
-      </address>
+        <a class="footer-logo" href="./index.html">Web<span class="studio">Studio</span></a>
+        <address class="footer-adress">
+          <ul class="list">
+            <li class="contact-list">
+              <a class="contacts-link" href="https://goo.gl/maps/R587G1dcSDkKb4t88" target="_blank"
+                >м. Київ, пр-т Лесі Українки, 26</a
+              >
+            </li>
+            <li class="contact-list">
+              <a class="contacts-item" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class="contact-list">
+              <a class="contacts-item" href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </address>
       </div>
     </footer>
   </body>
