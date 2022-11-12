@@ -33,7 +33,7 @@ img {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
   margin: 0 auto;
 }
 .section {
@@ -225,6 +225,9 @@ img {
   margin-right: 30px;
   padding-bottom: 30px;
   width: calc((100%-90px) / 4);
+  background: #FFFFFF;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .command-list:last-child {
   margin-right: 0;
@@ -324,8 +327,8 @@ img {
   margin-bottom: 30px;
   width: 370px;
   background-color: #ffffff;
-  border: 1px solid #eeeeee;
-}
+  }
+
 .item:nth-child(3n) {
   margin-right: 0;
 }
@@ -334,6 +337,8 @@ img {
 }
 .work {
   padding: 20px 24px;
+  border: 1px solid #eeeeee;
+  border-top: none;
 }
 .work-title {
   margin-bottom: 4px;
